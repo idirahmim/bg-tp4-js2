@@ -1,0 +1,50 @@
+body{
+
+font-family: Calibri, sans-serif;
+
+}
+#table_container{
+width: 80%;
+margin: 50px auto;
+
+
+}
+
+table{
+width: 100%;
+text-align: center;
+border: solid 1px;
+border-collapse: collapse;
+
+
+}
+
+th {
+    background-color: rgb(26, 93, 188);
+    color: white;
+    border: solid 1px #ddd;
+    padding: 10px;
+}
+tr{
+    border: solid 1px #ddd;
+
+}
+td{
+border: solid 1px #ddd;
+padding: 8px;
+}
+
+.col_number , .col_chkbox{
+text-align: center;
+vertical-align: middle;
+
+}
+
+.col_text{
+    text-align: left;
+    vertical-align: middle;
+
+}
+.col_chkbox input{
+    cursor: pointer;
+}
